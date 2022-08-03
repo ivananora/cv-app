@@ -38,20 +38,20 @@ class Header extends Component {
 
     return (
       <div onClick={this.editHeader}>
-        <form className={ isEditingHeader ? "edit" : "close" }>
+        <form className={ isEditingHeader ? "edit-main" : "close" }>
+          <label htmlFor='fullName'>Full Name</label>
           <input 
             value={fullName} 
             onChange={this.handleChange}
             name='fullName'
-            placeholder='Full Name'
           />
+          <label htmlFor='title'>Job Title</label>
           <input 
             value={title} 
             onChange={this.handleChange} 
             name='title'
-            placeholder='Job Title'
           />
-          <button onClick={this.closeHeaderEdit}>X</button>
+          <button onClick={this.closeHeaderEdit}>Close</button>
         </form>
         <h1>{fullName}</h1>
         <h4>{title}</h4>
