@@ -36,8 +36,8 @@ class Summary extends Component {
     const { summary, isEditingSummary } = this.state;
 
     return (
-      <div onClick={this.editSummary}>
-        <form className={ isEditingSummary ? "edit-summary" : "close" }>
+      <div className="section" onClick={this.editSummary}>
+        <form className={ isEditingSummary ? "edit" : "close" }>
           <label htmlFor='summary'>Describe yourself.</label>
           <input 
             value={summary} 
@@ -47,7 +47,7 @@ class Summary extends Component {
           />
           <button onClick={this.closeSummaryEdit}>Close</button>
         </form>
-        <h3>Summary</h3>
+        <h3>SUMMARY</h3>
         <p>{summary}</p>
       </div>
     )

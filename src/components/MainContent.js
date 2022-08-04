@@ -3,10 +3,6 @@ import Summary from './Summary';
 import Experience from './Experience';
 
 class MainContent extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>

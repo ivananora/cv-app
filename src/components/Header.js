@@ -37,8 +37,8 @@ class Header extends Component {
     const { fullName, title, isEditingHeader } = this.state;
 
     return (
-      <div onClick={this.editHeader}>
-        <form className={ isEditingHeader ? "edit-main" : "close" }>
+      <div className="section" onClick={this.editHeader}>
+        <form className={ isEditingHeader ? "edit" : "close" }>
           <label htmlFor='fullName'>Full Name</label>
           <input 
             value={fullName} 
