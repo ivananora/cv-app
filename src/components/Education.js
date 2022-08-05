@@ -10,7 +10,12 @@ class Education extends Component {
         educations: [
           {education: {
             degree: 'BS in Computer Science',
-            universityName: 'MIT',
+            universityName: 'University',
+            date: '2012 - 2016'
+          }},
+          {education: {
+            degree: 'BS in Computer Science',
+            universityName: 'University Name',
             date: '2012 - 2016'
           }}
         ]
@@ -59,7 +64,7 @@ class Education extends Component {
   }
 
   render() {
-    const { isEditing, educations, education } = this.state;
+    const { isEditing, educations } = this.state;
 
     return (
       <div className='section' onClick={this.editEducation}>

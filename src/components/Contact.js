@@ -66,10 +66,10 @@ class Contact extends Component {
           <button onClick={this.closeContactEdit}>Close</button>
         </form>
         <h3>CONTACT</h3>
-        <p>{phoneNumber}</p>
-        <p>{emailAddress}</p>
-        <p>{address}</p>
-        <p>{linkedIn}</p>
+        <p className='contact-details'>{phoneNumber}</p>
+        <p className='contact-details'>{emailAddress}</p>
+        <p className='contact-details'>{address}</p>
+        <p className='contact-details'>{linkedIn}</p>
       </div>
     )
   }

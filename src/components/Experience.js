@@ -77,7 +77,7 @@ class Experience extends Component {
   }
 
   render() {
-    const { isEditing, jobs, job } = this.state;
+    const { isEditing, jobs } = this.state;
 
     return (
       <div className='section' onClick={this.editExperience}>
