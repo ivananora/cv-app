@@ -36,7 +36,7 @@ class Summary extends Component {
     const { summary, isEditingSummary } = this.state;
 
     return (
-      <div className="section" onClick={this.editSummary}>
+      <div className='section' onClick={this.editSummary}>
         <form className={ isEditingSummary ? "edit" : "close" }>
           <label htmlFor='summary'>Describe yourself.</label>
           <input 

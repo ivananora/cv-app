@@ -7,7 +7,7 @@ const OneEducation = (props) => {
     <div>
       {educations.map((singleEducation) => {
         return(
-          <div>
+          <div className='individual-education'>
             <h4>{singleEducation.education.degree}</h4>
             <p>{singleEducation.education.universityName}</p>
             <p>{singleEducation.education.date}</p>

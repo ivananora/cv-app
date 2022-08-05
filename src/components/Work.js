@@ -7,7 +7,7 @@ const Work = (props) => {
     <div>
       {displayJobs.map((singleJob) => {
         return(
-          <div>
+          <div className='individual-job'>
             <h4>{singleJob.job.jobTitle}</h4>
             <p>{singleJob.job.companyName} | {singleJob.job.address} | {singleJob.job.date}</p>
             <p>{singleJob.job.jobSummary}</p>

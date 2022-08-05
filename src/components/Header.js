@@ -5,8 +5,8 @@ class Header extends Component {
     super();
 
     this.state = {
-      fullName: 'John Doe',
-      title: 'Web Developer',
+      fullName: 'JOHN DOE',
+      title: 'FULL STACK DEVELOPER',
       isEditingHeader: false
     }
 
@@ -37,7 +37,7 @@ class Header extends Component {
     const { fullName, title, isEditingHeader } = this.state;
 
     return (
-      <div className="section" onClick={this.editHeader}>
+      <div id="header-section" className='header-section' onClick={this.editHeader}>
         <form className={ isEditingHeader ? "edit" : "close" }>
           <label htmlFor='fullName'>Full Name</label>
           <input 
@@ -53,8 +53,8 @@ class Header extends Component {
           />
           <button onClick={this.closeHeaderEdit}>Close</button>
         </form>
-        <h1>{fullName}</h1>
-        <h4>{title}</h4>
+        <h1 className='name'>{fullName}</h1>
+        <h4 className='title'>{title}</h4>
       </div>
     )
   }

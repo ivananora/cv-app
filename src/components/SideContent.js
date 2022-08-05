@@ -6,7 +6,7 @@ import Skills from './Skills';
 class SideContent extends Component {
   render() {
     return (
-      <div>
+      <div id='side-content-section'>
           <Contact />
           <Education />
           <Skills />

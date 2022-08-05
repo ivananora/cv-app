@@ -16,6 +16,9 @@ class Skills extends Component {
         { skill: 'Relevant Skill', id: uniqid() },
         { skill: 'Relevant Skill', id: uniqid() },
         { skill: 'Relevant Skill', id: uniqid() },
+        { skill: 'Relevant Skill', id: uniqid() },
+        { skill: 'Relevant Skill', id: uniqid() },
+        { skill: 'Relevant Skill', id: uniqid() },
       ]
     }
   }
@@ -58,7 +61,7 @@ class Skills extends Component {
   }
 
   render() {
-    const { isEditing, skills, skill } = this.state;
+    const { isEditing, skills } = this.state;
 
     return (
       <div className='section' onClick={this.editSkills}>

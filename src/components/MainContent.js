@@ -5,7 +5,7 @@ import Experience from './Experience';
 class MainContent extends Component {
   render() {
     return (
-      <div>
+      <div id='main-content-section'>
         <Summary />
         <Experience />
       </div>
