@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(20, 20, 20);
 }
 
 body {
@@ -10,6 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(182, 182, 182);
 }
 
 input {
@@ -20,17 +23,34 @@ ul {
     list-style-type: none;
 }
 
+li {
+    line-height: 2;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h3, .individual-job, .individual-education {
+    margin-bottom: 12px;
+}
+
 .App {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     width: 816px;
     height: 1056px;
-    border: 1px solid black;
+    margin: 40px 0;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .section {
-    margin: 36px 24px;
+    margin: 24px;
 }
 
-.section:hover {
+.section:hover, .header-section:hover {
     background-color: rgb(230, 230, 230);
 }
 
@@ -52,6 +72,39 @@ ul {
 .form-column-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.name, .title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.contact-details {
+    line-height: 2;
+}
+
+#header-section {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(47, 47, 71);
+}
+
+#main-content-section {
+    grid-column: 2 / 4;
+    grid-row: 2 / 8;
+    margin-right: 36px;
+}
+
+#side-content-section {
+    grid-column: 1 / 2;
+    grid-row: 2 / 8;
+    margin-left: 36px;
 }
 
 #input-summary {
