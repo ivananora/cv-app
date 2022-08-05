@@ -16,6 +16,10 @@ input {
     padding: 1px 8px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .App {
     width: 816px;
     height: 1056px;
