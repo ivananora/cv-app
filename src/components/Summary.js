@@ -39,11 +39,13 @@ class Summary extends Component {
       <div className='section' onClick={this.editSummary}>
         <form className={ isEditingSummary ? "edit" : "close" }>
           <label htmlFor='summary'>Describe yourself.</label>
-          <input 
+          <textarea
             value={summary} 
             onChange={this.handleChange}
             name='summary'
             id='input-summary'
+            rows='5'
+            cols='51'
           />
           <button onClick={this.closeSummaryEdit}>Close</button>
         </form>

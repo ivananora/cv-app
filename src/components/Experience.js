@@ -116,11 +116,13 @@ class Experience extends Component {
                     id={index}
                   />
                   <label htmlFor='jobSummary'>Summary</label>
-                  <input
+                  <textarea
                     onChange={(e) => this.handleChange(e, index)}
                     value={singleJob.job.jobSummary}
                     name='jobSummary'
                     id={index}
+                    rows='5'
+                    cols='51'
                   />
                   {jobs.length > 1 && <button type='button' onClick={() => this.deleteWork(index)}>Remove</button>}
                   {jobs.length - 1 === index && <button type='submit'>Add Work</button>}
