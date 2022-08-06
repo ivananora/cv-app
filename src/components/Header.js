@@ -5,8 +5,8 @@ class Header extends Component {
     super();
 
     this.state = {
-      fullName: 'JOHN DOE',
-      title: 'FULL STACK DEVELOPER',
+      fullName: 'FULL NAME',
+      title: ' JOB TITLE',
       isEditingHeader: false
     }
 

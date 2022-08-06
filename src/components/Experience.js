@@ -9,25 +9,25 @@ class Experience extends Component {
       isEditing: false,
       jobs: [
         {job: {
-          jobTitle: 'Full Stack Developer',
-          companyName: 'Company 1',
-          address: 'Makati, National Capital Region',
-          date: 'January 2020 - January 2022',
-          jobSummary: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta deleniti mollitia debitis labore nam voluptatem in eius voluptatum obcaecati pariatur quia magnam delectus fugit, molestias expedita, libero quas maxime saepe.'
+          jobTitle: 'Write your job title here.',
+          companyName: 'Company Name',
+          address: 'City, State',
+          date: 'Start Date - End Date',
+          jobSummary: 'In two lines, summarize your main responsibilities using past tense and provide information about the organization. Keep descriptions short but add details that show why you are a great candidate. Show your accomplishments by using numbers and percentages.'
         }},
         {job: {
-          jobTitle: 'Front End Developer',
-          companyName: 'Company 2',
-          address: 'Pasay, National Capital Region',
-          date: 'January 2018 - January 2020',
-          jobSummary: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta deleniti mollitia debitis labore nam voluptatem in eius voluptatum obcaecati pariatur quia magnam delectus fugit, molestias expedita, libero quas maxime saepe.'
+          jobTitle: 'Write your job title here.',
+          companyName: 'Company Name',
+          address: 'City, State',
+          date: 'Start Date - End Date',
+          jobSummary: 'In two lines, summarize your main responsibilities using past tense and provide information about the organization. Keep descriptions short but add details that show why you are a great candidate. Show your accomplishments by using numbers and percentages.'
         }},
         {job: {
-          jobTitle: 'Software Engineer Intern',
-          companyName: 'Company 3',
-          address: 'Muntinlupa, National Capital Region',
-          date: 'January 2016 - January 2018',
-          jobSummary: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta deleniti mollitia debitis labore nam voluptatem in eius voluptatum obcaecati pariatur quia magnam delectus fugit, molestias expedita, libero quas maxime saepe.'
+          jobTitle: 'Write your job title here.',
+          companyName: 'Company Name',
+          address: 'City, State',
+          date: 'Start Date - End Date',
+          jobSummary: 'In two lines, summarize your main responsibilities using past tense and provide information about the organization. Keep descriptions short but add details that show why you are a great candidate. Show your accomplishments by using numbers and percentages.'
         }},
       ]
     }

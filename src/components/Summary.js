@@ -5,7 +5,7 @@ class Summary extends Component {
     super(props);
 
     this.state = {
-      summary: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a nesciunt culpa quia nam qui sed ratione, error sit, voluptatibus maxime fuga quisquam. Repellat, quos sed. Quis sint voluptatibus quaerat! Cum sunt facere perferendis, obcaecati sit fuga, eaque debitis voluptatum aperiam rem, voluptates quis laboriosam molestiae ab facilis reprehenderit. In obcaecati nam facilis optio quasi provident repudiandae quidem accusantium doloremque!',
+      summary: 'Write a powerful performance summary here. Highlight your most valuable skills, qualifications, achievements, credentials, and other distinguishing information as it relates to and supports your current objective. Integrate keywords and qualifications aligned with the specific needs of the company.',
       isEditingSummary: false
     }
 

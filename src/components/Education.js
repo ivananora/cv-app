@@ -9,14 +9,14 @@ class Education extends Component {
         isEditing: false,
         educations: [
           {education: {
-            degree: 'BS in Computer Science',
-            universityName: 'University',
-            date: '2012 - 2016'
+            degree: 'Degree / Major',
+            universityName: 'University Name',
+            date: 'Start Date - End Date'
           }},
           {education: {
-            degree: 'BS in Computer Science',
+            degree: 'Degree / Major',
             universityName: 'University Name',
-            date: '2012 - 2016'
+            date: 'Start Date - End Date'
           }}
         ]
       }
