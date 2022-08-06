@@ -81,7 +81,7 @@ class Experience extends Component {
 
     return (
       <div className='section' onClick={this.editExperience}>
-        <div className={isEditing ? "edit" : "close"}>
+        <div className={isEditing ? "edit-exp" : "close"}>
           {jobs.map((singleJob, index) => {
             return(
               <form onSubmit={this.addWork} key={index}>

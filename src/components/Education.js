@@ -68,12 +68,12 @@ class Education extends Component {
 
     return (
       <div className='section' onClick={this.editEducation}>
-        <div className={ isEditing ? "edit" : "close" }>
+        <div className={ isEditing ? "edit-exp" : "close" }>
           {educations.map((singleEducation, index) => {
             return(
               <form onSubmit={this.addEducation} key={index}>
                 {index === 0 && <button onClick={this.closeEducationEdit}>Close</button>}
-                <div>
+                <div className='form-column-grid'>
                   <label htmlFor='degree'>Degree</label>
                   <input
                     onChange={(e) => this.handleChange(e, index)}
